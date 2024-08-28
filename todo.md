@@ -1,0 +1,3 @@
+Ostal pri `Casting types continued` - Spreminjanje podatkovnih tipov med izvajanjem.
+
+Mogoče splittaj up readme file? tko k obsidian?...
