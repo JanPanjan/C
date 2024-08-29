@@ -7,8 +7,9 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 ---
 
 1. [compiling](docs/compiling.md)
-2. [synthax](docs/synthax.md) 
-3. [variables](docs/variables.md) 
-4. [operators](docs/operators.md) 
-5. [loops](docs/loops.md) 
-6. [errors](docs/errors.md) 
+2. [synthax](docs/synthax.md)
+3. [variables](docs/variables.md)
+4. [operators](docs/operators.md)
+5. [loops](docs/loops.md)
+6. [errors](docs/errors.md)
+7. [arrays](docs/arrays.md)
