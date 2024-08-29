@@ -13,3 +13,4 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 5. [loops](docs/loops.md)
 6. [errors](docs/errors.md)
 7. [arrays](docs/arrays.md)
+8. [strings](docs/strings.md) 
