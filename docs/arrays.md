@@ -6,21 +6,17 @@ Uporabno, ko moramo shranit več vrednosti istega tipa, ki so povezane med sabo.
 
 Na primer koordinate $x$, $y$ in $z$ lahko pišemo:
 
-```
-int main() {
-    int x;
-    int y;
-    int z;
-}
-```
+    int main() {
+        int x;
+        int y;
+        int z;
+    }
 
 Bolj organizirano, ko se pojavi več in več spremenljivk, je hraniti array:
 
-```
-int main() {
-    int koordinate[3] = {1, 2, 3};
-}
-```
+    int main() {
+        int koordinate[3] = {1, 2, 3};
+    }
 
 Zdaj so vse shranjene v **eni** spremenljivki
 
@@ -28,30 +24,22 @@ Zdaj so vse shranjene v **eni** spremenljivki
 
 Prav tako, če bi ustvaril npr.
 
-```
-int a = 1;
-char b = 'b';
-int c = 2;
-```
+    int a = 1;
+    char b = 'b';
+    int c = 2;
 
 Bi v spominu to izgledalo nekako tako:
 
-```
-int:a[ 1 ] | char:b[ 'b' ] | int:c[ 2 ]
-```
+    int:a[ 1 ] | char:b[ 'b' ] | int:c[ 2 ]
 
 Zdaj naši števili nista eden zraven drugega. To je drugače, če naredimo array.
 
-```
-int array[2] = {1, 2};
-char b = 'b';
-```
+    int array[2] = {1, 2};
+    char b = 'b';
 
 Zdaj je spomin:
 
-```
-int:array{[0][ 1 ] | [1][ 2 ]} | char:b[ 'b' ]
-```
+    int:array{[0][ 1 ] | [1][ 2 ]} | char:b[ 'b' ]
 
 Anyways, yeah.
 
@@ -63,7 +51,7 @@ Ustvarjen brez podanih vrednosti.
 
     int age[4];
 
-Nujno moraš podat velikost, zato da compiler ve koliko prostora mora rezervirati. Ko je enkrat ustvarjen mu ne moreš spreminjati velikosti (_static_).
+Nujno moraš podat velikost, zato da compiler ve koliko prostora mora rezervirati. Ko je enkrat ustvarjen mu **ne moreš spreminjati velikosti** (_static_).
 
 ## Inicializirano polje
 
@@ -96,17 +84,13 @@ Na primer, integerji uporabijo 4 bajte vsak. Če imamo polje velikosti 5, bo
 sizeof vrnila 20 (bajtov). 
 dobljeno vrednost moramo deliti s 4, da dobimo 5 (velikost polja).
 
-```
-int polje[5];
-sizeof(polje)/4;
-```
+    int polje[5];
+    sizeof(polje)/4;
 
 Na srečo lahko sizeof vrne tudi število bajtov, ki jih zahteva nek podatkovni
 tip. Če pišemo torej sizeof(int), vrne 4 (bajte).
 
-```
-sizeof(polje)/sizeof(int);
-```
+    sizeof(polje)/sizeof(int);
 
 ## Dostopanje elementov
 
