@@ -9,5 +9,11 @@ int main() {
 	printf("Star sem %d let.\n", starost);
 	printf("Ta jajca so velika: %f cm.\n", ta_jajca);
 
+	// NOTE: velikosti podatkovnih tipov
+	printf("int: %lli\n", sizeof(int));
+	printf("float: %lli\n", sizeof(float));
+	printf("double: %lli\n", sizeof(double));
+	printf("char: %lli\n", sizeof(char));
+
 	return 0;
 }

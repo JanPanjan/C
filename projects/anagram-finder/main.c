@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main() {
+
     // 1. Create two integer arrays called counter1 and counter2. Initialize both arrays with four zeros each.
     int counter1[] = {0, 0, 0, 0};
     int counter2[] = {0, 0, 0, 0};

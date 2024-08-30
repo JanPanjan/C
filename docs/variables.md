@@ -4,13 +4,14 @@
 
 Tip govori o tem _kakšen_ podatek je shranjen v spremenljivki. Ko enkrat declaraš spremenljivko z nekim imenom, ji ne moreš spreminjati podatkovnega tipa.
 
-| type | opis | sintaksa |
-| --------------- | --------------- | --------------- |
-| int | cela števila | 1,2,3... |
-| float | 6 decimalna števila | 2.1f, 2.34f, ... |
-| double | 15 decimalna števila | 2.3456, 5.76543, ... |
-| char | črka | 'a', 'b', 'c'... |
-Shranjujejo neke podatke.
+| type | opis | sintaksa | velikost |
+| --------------- | --------------- | --------------- | --------------- |
+| int | cela števila | 1,2,3... | 4 bytes |
+| float | 6 decimalna števila | 2.1f, 2.34f, ... | 4 bytes |
+| double | 15 decimalna števila | 2.3456, 5.76543, ... | 8 bytes |
+| char | črka | 'a', 'b', 'c'... | 1 byte |
+
+Shranjujejo neke podatke. Velikost lahko dobiš s funkcijo `sizeof(type)` (pazi, da daš `"%lli"`) (glej [arrays](docs/arrays.md)).
 
     // declare
     type name;

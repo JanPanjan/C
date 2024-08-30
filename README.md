@@ -6,6 +6,8 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 
 ---
 
+# Syllabus
+
 1. [compiling](docs/compiling.md)
 2. [synthax](docs/synthax.md)
 3. [variables](docs/variables.md)
@@ -14,3 +16,8 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 6. [errors](docs/errors.md)
 7. [arrays](docs/arrays.md)
 8. [strings](docs/strings.md) 
+9. [pointers and memory](docs/pointers-and-memory.md) 
+
+# Projects
+
+- [anagram-finder](projects/anagram-finder/README.md)
