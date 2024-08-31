@@ -107,6 +107,29 @@ Dinamično polnjene spomina. Basically, ti rečeš, da naj se rezervira nekaj sp
 
 Pozabiti sprostit _dynamically allocated memory_ bo privedlo do memory-leaks in poor preformance.
 
----
+# Funckije za dynamic memory allocation
 
+V C-ju obstajajo funkcije, s katerimi dinamično alociramo spomin (in ga sprostimo):
 
+- malloc
+- calloc
+- realloc
+- free
+
+Potrebuješ `stdlib` library in vsaj en pointer.
+
+## malloc()
+
+Rezerviraj bytes na heap.
+
+## calloc()
+
+Rezerviraj spomin za neke ints, doubles ali katerikoli podatkovni tip.
+
+## realloc()
+
+Razširi ali zoožaj blok rezerviranega spomina (ta ki je bil rezerviran z malloc ali calloc).
+
+## free()
+
+Sprosti prej rezerviran spomin.
