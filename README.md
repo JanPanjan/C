@@ -19,6 +19,7 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 9. [pointers and memory](docs/pointers-and-memory.md) 
 10. [functions](docs/functions.md) 
 11. [scope](docs/scope.md) 
+12. [structures](docs/structures.md) 
 
 # Projects
 
