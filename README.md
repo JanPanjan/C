@@ -17,7 +17,10 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 7. [arrays](docs/arrays.md)
 8. [strings](docs/strings.md) 
 9. [pointers and memory](docs/pointers-and-memory.md) 
+10. [functions](docs/functions.md) 
+11. [scope](docs/scope.md) 
 
 # Projects
 
-- [anagram-finder](projects/anagram-finder/README.md)
+- [anagram-finder](projects/anagram-finder/main.c)
+- [string-copier](projects/string-copier/main.c) 
