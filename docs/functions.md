@@ -144,11 +144,3 @@ Prav tako compiler ne potrebuje imen argumentov funkcij, dovolj je, ƒçe mu poda≈
 
     returnType functionName (type1, type2);
 
----
-
-Files:
-
-- [basic](ch-8-functions/basic/main.c) 
-- [user-defined](ch-8-functions/user-defined/main.c) 
-- [random numbers](ch-8-functions/random-numbers/main.c) 
-- [with pointers](ch-8-functions/functions-w-pointers/main.c) 

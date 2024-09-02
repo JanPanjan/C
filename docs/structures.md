@@ -4,7 +4,7 @@ Spadajo med _derived_ data types, kot [arrays](/docs/arrays.md) in [pointers](/d
 
 Structures omogočajo programerju, da ustvari svoje podatkovne tipe (razrede basically). Olajšajo delo s kompleksnimi strukturami.
 
-# Struktura struktur
+## Struktura struktur
 
 Primer struct:
 
@@ -18,7 +18,7 @@ Spremenljivke, ki jih definiraš znotraj struct se imenujejo _member variables_ 
 
 Member variables morajo biti samo **declared** in ne initialized (vrže error).
 
-# Inicializacija struktur
+## Inicializacija struktur
 
 Zgornjo strukturo inicializiraš tako, da ustvariš spremenljivko tipa Bottle in ji znotraj `{}` podaš vrednosti v vrstnem redu.
 
@@ -32,7 +32,7 @@ Lahko jih podaš tudi v neurejenem vrstnem redu.
         .currentCapacity = 0
     };
 
-# Zakaj uporabljamo structures
+## Zakaj uporabljamo structures
 
 Structs uporabljamo, da se znebimo preveč clusterfucka v skripti z ustvarjanjem novih spremenljivk. Lahko bi uporabili arrays, ampak so limited na isti tip vrednosti. 
 
@@ -54,7 +54,7 @@ Lahko naredimo struct in tako posledično definiramo več oseb brez da nastane c
 
     struct Oseba jan = {21, "Jan", "Panjan"};
 
-# Dostopanje do elementov v structs
+## Dostopanje do elementov v structs
 
 Z operatorjem _dot notation_ lahko dostopamo in delamo z vrednostmi, ki so del member variables v strukturi.
 
@@ -78,7 +78,7 @@ Prav tako lahko najprej declaraš strukturo in nato inicializiraš z dot operato
     anja.starost = 23;
     anja.priimek = "Panjan";
 
-# Structures and pointers
+## Structures and pointers
 
 Tudi s svojimi strukturami lahko uporabljaš [pointers](/docs/pointers-and-memory.md). Najprej ustvariš objekt in nato ustvariš pointer, ki kaže na ta objekt.
 
@@ -99,7 +99,21 @@ Drugi način dostopanja do vrednosti, je z _arrow_ notacijo, ki izgleda tako:
 
 Drugi način naj bi bil bolj berljiv, ampak personal preference.
 
-# Structures and functions
+### REminder glede strings
+
+Strings ne moraš spreminjat brez `strcpy` funkcije.
+
+Na primer:
+
+    miha_p->ime = "MIHA";
+
+bo vrnilo error. Moraš uporabiti:
+
+    strcpy(miha_p->ime, "MIHA");
+
+Glej [strings](docs/strings.md)  za več. 
+
+## Structures and functions
 
 Prav tako lahko pošljemo structs in pointerje structs v funkcije. Ker se ustvarijo kopije (glej [pointers-and-memory](/docs/pointers-and-memory.md)), postane memory usage velik risk. Prav tako spremebe podatkov ne bodo spremenile originalnih podatkov v strukturi.
 

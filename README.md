@@ -25,3 +25,4 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 
 - [anagram-finder](projects/anagram-finder/main.c)
 - [string-copier](projects/string-copier/main.c) 
+- [race-simulation](projects/race-simulator/main.c) 

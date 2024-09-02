@@ -1,5 +1,17 @@
 # Sintaksa
 
+```
+#include <stdio.h>
+
+// single comment
+/* multiline
+comment */
+
+int main() {
+    return 0;
+}
+```
+
 1. include nek package
 2. funkcija main je to kar se zgodi v programu (think java); prav tako mora bit lowercase
 3. semmicollons ali ; na koncu vrstic
