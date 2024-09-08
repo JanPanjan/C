@@ -86,3 +86,4 @@ Definicija funkcije:
 | %d, %i    | int |
 | %f | float in double |
 | %c | char |
+

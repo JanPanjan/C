@@ -9,7 +9,7 @@ Izdan leta 1972, vsi moderni operacijski sistemi so implementirani v C-ju, misli
 # Syllabus
 
 1. [compiling](docs/compiling.md)
-2. [synthax](docs/synthax.md)
+2. [syntax](docs/syntax.md)
 3. [variables](docs/variables.md)
 4. [operators](docs/operators.md)
 5. [loops](docs/loops.md)
