@@ -98,6 +98,10 @@ tip. Če pišemo torej sizeof(int), vrne 4 (bajte).
 
 Prvi index je 0, zadnji index je `arraySize - 1`.
 
+Fun fact: ko ustvarimo pointer na array, bo ta kazal na prvi element. Število, ki ga podamo znotraj `[]` je v bistvu offset za pointer - koliko mest naprej naj pogleda.
+
+Torej offset = 2, pomeni glej 2 adressa naprej.
+
 ## Spreminjanje elementov
 
     array[index] = newValue
